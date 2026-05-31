@@ -30,3 +30,9 @@ GitHub Pages documentation: https://docs.github.com/en/pages/getting-started-wit
 - `assets/shengdong-lu-photo.jpg` - profile image
 - `documents/shengdong-lu-cv.pdf` - CV
 - `documents/shengdong-lu-publications.pdf` - publication list
+
+## Attribution
+
+The page structure is adapted from Sownak Bose's academic homepage
+(https://sownakbose.github.io/), whose source repository is licensed under
+Creative Commons Attribution 3.0 Unported.

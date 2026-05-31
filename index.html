@@ -5,9 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta
       name="description"
-      content="Academic homepage of Shengdong Lu, Postdoctoral Research Associate at Durham University."
+      content="Academic homepage of Shengdong Lu, Postdoctoral Research Associate at Durham University's Institute for Computational Cosmology."
     >
-    <title>Shengdong Lu | astrosdlu.github.io</title>
+    <meta name="author" content="Shengdong Lu">
+    <meta property="og:title" content="Shengdong Lu - Galaxy Formation and Cosmology">
+    <meta
+      property="og:description"
+      content="Research in galaxy formation, cosmological simulations, radiative-transfer forward modelling, and JWST high-redshift galaxies."
+    >
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://astrosdlu.github.io">
+    <title>Shengdong Lu</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -16,295 +24,281 @@
     >
     <link rel="stylesheet" href="styles.css">
   </head>
-  <body>
-    <a class="skip-link" href="#main">Skip to content</a>
 
-    <header class="site-header">
-      <a class="site-mark" href="#top" aria-label="Shengdong Lu homepage">
-        <span class="mark-symbol">SL</span>
-        <span class="mark-text">astrosdlu.github.io</span>
+  <body>
+    <a class="skip-link" href="#about">Skip to main content</a>
+
+    <header class="navbar">
+      <a class="brand" href="#home" aria-label="Shengdong Lu homepage">
+        <span>SL</span>
+        <strong>Shengdong Lu</strong>
       </a>
-      <nav class="site-nav" aria-label="Primary navigation">
-        <a href="#about">About</a>
+      <nav aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#cv">CV</a>
         <a href="#research">Research</a>
-        <a href="#publications">Publications</a>
-        <a href="#talks">Talks</a>
-        <a href="#resources">Resources</a>
+        <a href="#team">Group</a>
+        <a href="#outreach">Outreach &amp; Teaching</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
 
-    <main id="main">
-      <section class="hero" id="top">
-        <div class="hero-copy">
-          <p class="eyebrow">Postdoctoral Research Associate</p>
-          <h1>
-            <span>Shengdong</span>
-            <span>Lu</span>
-            <span class="han">陆胜东</span>
-          </h1>
-          <p class="role">Institute for Computational Cosmology, Durham University</p>
-          <p class="lede">
-            I study galaxy formation and evolution with cosmological simulations,
-            semi-analytic models, and radiative-transfer forward modelling, with a
-            current focus on interpreting JWST observations of high-redshift galaxies.
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-inner">
+          <p class="kicker">Institute for Computational Cosmology, Durham University</p>
+          <h1>Hi! I'm Shengdong.</h1>
+          <p class="hero-subtitle">
+            I am a Postdoctoral Research Associate studying galaxy formation and
+            evolution with cosmological simulations, semi-analytic models, and
+            radiative-transfer forward modelling.
           </p>
-          <ul class="hero-topics" aria-label="Research topics">
-            <li>JWST high-redshift galaxies</li>
-            <li>COLIBRE simulations</li>
-            <li>Observable-space inference</li>
-          </ul>
-          <div class="hero-actions" aria-label="Profile links">
-            <a class="button primary" href="documents/shengdong-lu-cv.pdf">Download CV</a>
-            <a class="button" href="documents/shengdong-lu-publications.pdf">Publication List</a>
-            <a class="button ghost" href="https://github.com/AstroShengdong">GitHub</a>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#about">About Me</a>
+            <a class="button button-light" href="#contact">Contact Me</a>
           </div>
         </div>
+      </section>
 
-        <aside class="hero-side" aria-label="Profile summary">
-          <figure class="portrait-panel">
-            <img src="assets/shengdong-lu-photo.jpg" alt="Portrait of Shengdong Lu">
-            <figcaption>
-              Forward modelling galaxy populations from simulations to observable space.
-            </figcaption>
-          </figure>
-          <dl class="profile-facts">
-            <div>
-              <dt>Current base</dt>
-              <dd>Durham, UK</dd>
+      <section class="section about-section" id="about">
+        <div class="container">
+          <h2>About Me</h2>
+          <div class="about-layout">
+            <figure class="about-photo">
+              <img src="assets/shengdong-lu-photo.jpg" alt="Portrait of Shengdong Lu">
+            </figure>
+            <div class="about-text">
+              <p>
+                I am a Postdoctoral Research Associate at the
+                <a href="https://icc.dur.ac.uk/">Institute for Computational Cosmology</a>,
+                Durham University, and a member of the COLIBRE collaboration.
+                My work connects theoretical predictions with observations by modelling
+                how galaxies appear across wavelengths, redshift, and survey selection.
+              </p>
+              <p>
+                My current research focuses on the interpretation of JWST observations
+                and the forward modelling of high-redshift galaxy populations using
+                cosmological simulations, semi-analytic models, and dust radiative
+                transfer.
+              </p>
+              <p>
+                Before joining Durham, I worked at Tsinghua University and completed my
+                PhD at the National Astronomical Observatories, University of Chinese
+                Academy of Sciences. My earlier work focused on galaxy dynamics, stellar
+                populations, and integral-field spectroscopy.
+              </p>
             </div>
-            <div>
-              <dt>Collaboration</dt>
-              <dd>COLIBRE</dd>
-            </div>
-            <div>
-              <dt>ORCID</dt>
-              <dd><a href="https://orcid.org/0000-0002-6726-9499">0000-0002-6726-9499</a></dd>
-            </div>
-          </dl>
-        </aside>
-      </section>
-
-      <section class="section intro-grid" id="about" aria-labelledby="about-title">
-        <div>
-          <p class="section-kicker">Welcome</p>
-          <h2 id="about-title">About</h2>
-        </div>
-        <div class="intro-copy">
-          <p>
-            I am a Postdoctoral Research Associate at Durham University and a member of
-            the COLIBRE collaboration. My work connects theoretical predictions with
-            observations by modelling how galaxies appear across wavelengths, redshift,
-            and survey selection.
-          </p>
-          <p>
-            Before joining Durham, I worked at Tsinghua University and completed my PhD
-            at the National Astronomical Observatories, University of Chinese Academy of
-            Sciences. My earlier work focused on galaxy dynamics, stellar populations,
-            and integral-field spectroscopy.
-          </p>
+          </div>
         </div>
       </section>
 
-      <section class="section" aria-labelledby="guidance-title">
-        <div class="section-heading">
-          <p class="section-kicker">Guidance</p>
-          <h2 id="guidance-title">Find Your Way</h2>
-        </div>
-        <div class="guide-grid">
-          <a class="guide-card" href="#research">
-            <span>01</span>
-            <h3>Research</h3>
-            <p>High-redshift galaxies, JWST interpretation, COLIBRE, SKIRT, and galaxy dynamics.</p>
-          </a>
-          <a class="guide-card" href="#publications">
-            <span>02</span>
-            <h3>Publications</h3>
-            <p>Selected first-author papers and a downloadable full publication list.</p>
-          </a>
-          <a class="guide-card" href="#talks">
-            <span>03</span>
-            <h3>Presentations</h3>
-            <p>Recent invited and contributed talks at collaboration meetings and conferences.</p>
-          </a>
-          <a class="guide-card" href="#resources">
-            <span>04</span>
-            <h3>Resources</h3>
-            <p>CV, ORCID, GitHub, ADS search, and public materials for collaborators.</p>
-          </a>
+      <section class="section cv-section" id="cv">
+        <div class="wave wave-top" aria-hidden="true"></div>
+        <div class="container">
+          <h2>Curriculum Vitae</h2>
+          <div class="cv-grid">
+            <article class="cv-block">
+              <h3>Current Position</h3>
+              <div class="cv-item">
+                <h4>Postdoctoral Research Associate</h4>
+                <p>Institute for Computational Cosmology, Durham University</p>
+                <time>Jul. 2023 - present</time>
+              </div>
+            </article>
+
+            <article class="cv-block">
+              <h3>Previous Employment</h3>
+              <div class="cv-item">
+                <h4>Postdoctoral Researcher &amp; Research Assistant</h4>
+                <p>Tsinghua University</p>
+                <time>Oct. 2020 - Jul. 2023</time>
+              </div>
+            </article>
+
+            <article class="cv-block">
+              <h3>Education</h3>
+              <div class="cv-item">
+                <h4>PhD in Astrophysics</h4>
+                <p>National Astronomical Observatories, University of Chinese Academy of Sciences</p>
+                <time>Sept. 2016 - Sept. 2020</time>
+              </div>
+              <div class="cv-item">
+                <h4>BSc in Astronomy</h4>
+                <p>University of Science and Technology of China</p>
+                <time>Sept. 2012 - Jul. 2016</time>
+              </div>
+            </article>
+
+            <article class="cv-block">
+              <h3>Selected Service</h3>
+              <div class="cv-item">
+                <h4>Referee</h4>
+                <p>MNRAS, A&amp;A, and PASP</p>
+              </div>
+              <div class="cv-item">
+                <h4>Organizer</h4>
+                <p>Galactic Dynamics Workshop and astronomy journal-club discussions</p>
+              </div>
+            </article>
+          </div>
+          <div class="download-row">
+            <a class="button button-dark" href="documents/shengdong-lu-cv.pdf">Download Full CV</a>
+            <a class="button button-light" href="documents/shengdong-lu-publications.pdf">Publication List</a>
+            <a class="button button-light" href="https://ui.adsabs.harvard.edu/search/q=author%3A%22Lu%2C%20Shengdong%22&sort=date%20desc%2C%20bibcode%20desc">NASA ADS</a>
+          </div>
         </div>
       </section>
 
-      <section class="section split-section" id="news" aria-labelledby="news-title">
-        <div class="section-heading">
-          <p class="section-kicker">Recent News</p>
-          <h2 id="news-title">Updates</h2>
-        </div>
-        <ol class="timeline">
-          <li>
-            <time datetime="2026-05">May 2026</time>
-            <p>
-              Presented at the 28th Guoshoujing Meeting on Galaxy Formation and
-              Evolution in Haikou, China.
-            </p>
-          </li>
-          <li>
-            <time datetime="2026-05">May 2026</time>
-            <p>
-              Submitted <em>COLIBRE Luminosity Functions - II</em>, modelling the UV
-              luminosity function from z = 7 to z = 15 in the COLIBRE simulations.
-            </p>
-          </li>
-          <li>
-            <time datetime="2026-05">May 2026</time>
-            <p>
-              Submitted <em>COLIBRE Luminosity Functions - I</em>, covering luminosity
-              functions from far-UV to submillimetre at z = 0.
-            </p>
-          </li>
-          <li>
-            <time datetime="2025-06">June 2025</time>
-            <p>
-              Presented at IAU Symposium #369, <em>Massive Galaxies across the
-              Universe</em>, in Naples, Italy.
-            </p>
-          </li>
-        </ol>
-      </section>
+      <section class="section research-section" id="research">
+        <div class="container">
+          <h2>Research</h2>
+          <div class="research-grid">
+            <article class="research-card">
+              <div class="research-art art-jwst" aria-hidden="true"></div>
+              <div>
+                <h3>High-Redshift Galaxy Formation</h3>
+                <p>
+                  I test pre-existing LCDM predictions against JWST galaxy abundances
+                  and model UV luminosity functions at z = 7 to z = 15.
+                </p>
+                <a href="https://arxiv.org/abs/2605.06782">Recent COLIBRE UV luminosity function paper</a>
+              </div>
+            </article>
 
-      <section class="section" id="research" aria-labelledby="research-title">
-        <div class="section-heading">
-          <p class="section-kicker">Research</p>
-          <h2 id="research-title">Scientific Themes</h2>
-        </div>
-        <div class="research-grid">
-          <article class="research-card">
-            <h3>High-Redshift Galaxies</h3>
-            <p>
-              Testing pre-existing LCDM predictions against JWST galaxy abundances and
-              understanding the observable-space effects that shape UV luminosity
-              functions at z &gt; 7.
-            </p>
-          </article>
-          <article class="research-card">
-            <h3>Forward Modelling</h3>
-            <p>
-              Connecting cosmological hydrodynamical simulations, semi-analytic models,
-              and dust radiative transfer to realistic mock observations.
-            </p>
-          </article>
-          <article class="research-card">
-            <h3>Galaxy Quenching</h3>
-            <p>
-              Exploring how environment, circumgalactic angular momentum, and internal
-              structure regulate star formation in simulated and observed galaxies.
-            </p>
-          </article>
-          <article class="research-card">
-            <h3>Dynamics and Stellar Populations</h3>
-            <p>
-              Using integral-field spectroscopy to connect galaxy dynamics, dark matter
-              fractions, stellar populations, and structural evolution.
-            </p>
-          </article>
+            <article class="research-card">
+              <div class="research-art art-forward" aria-hidden="true"></div>
+              <div>
+                <h3>Forward Modelling</h3>
+                <p>
+                  I connect simulations, semi-analytic models, and radiative transfer
+                  to realistic mock observables from far-UV to submillimetre wavelengths.
+                </p>
+                <a href="https://arxiv.org/abs/2605.02022">Recent COLIBRE multi-wavelength paper</a>
+              </div>
+            </article>
+
+            <article class="research-card">
+              <div class="research-art art-quench" aria-hidden="true"></div>
+              <div>
+                <h3>Galaxy Quenching and Environment</h3>
+                <p>
+                  I study how environment, circumgalactic angular momentum, and internal
+                  structure regulate star formation in simulated and observed galaxies.
+                </p>
+                <a href="documents/shengdong-lu-publications.pdf">See related publications</a>
+              </div>
+            </article>
+
+            <article class="research-card">
+              <div class="research-art art-dynamics" aria-hidden="true"></div>
+              <div>
+                <h3>Dynamics and Stellar Populations</h3>
+                <p>
+                  My low-redshift work uses integral-field spectroscopy to connect
+                  galaxy dynamics, stellar populations, dark matter fractions, and IMF
+                  variations.
+                </p>
+                <a href="documents/shengdong-lu-publications.pdf">See MaNGA DynPop papers</a>
+              </div>
+            </article>
+          </div>
         </div>
       </section>
 
-      <section class="section publications" id="publications" aria-labelledby="publications-title">
-        <div class="section-heading">
-          <p class="section-kicker">Publications</p>
-          <h2 id="publications-title">Selected Papers</h2>
-        </div>
-        <div class="paper-list">
-          <article class="paper">
-            <p class="paper-year">2026</p>
-            <h3>COLIBRE Luminosity Functions - II: the ultraviolet luminosity function from z = 7 to z = 15 in the COLIBRE simulations</h3>
-            <p>Lu S., Frenk C. S., Lacey C. G., et al. Submitted to MNRAS.</p>
-            <a href="https://arxiv.org/abs/2605.06782">arXiv:2605.06782</a>
-          </article>
-          <article class="paper">
-            <p class="paper-year">2026</p>
-            <h3>COLIBRE Luminosity Functions - I: from far-UV to submillimetre luminosity functions at z = 0</h3>
-            <p>Lu S., Frenk C. S., Lacey C. G., et al. Submitted to MNRAS.</p>
-            <a href="https://arxiv.org/abs/2605.02022">arXiv:2605.02022</a>
-          </article>
-          <article class="paper">
-            <p class="paper-year">2025</p>
-            <h3>A comparison of pre-existing LCDM predictions with the abundance of JWST galaxies at high redshift</h3>
-            <p>Lu S., Frenk C. S., Bose S., Cole S., Lacey C. G., Baugh C. M., Helly J. C. MNRAS, 536, 1018.</p>
-          </article>
-          <article class="paper">
-            <p class="paper-year">2024</p>
-            <h3>MaNGA DynPop - V. Dark-matter fraction, stellar velocity dispersion, and IMF variations</h3>
-            <p>Lu S., Zhu K., Cappellari M., Li R., Mao S., Xu D. MNRAS, 530, 4474.</p>
-          </article>
-          <article class="paper">
-            <p class="paper-year">2022</p>
-            <h3>Quenched, bulge-dominated, but dynamically cold galaxies in IllustrisTNG and their real-world counterparts</h3>
-            <p>Lu S., Xu D., Wang S., Wang Y., et al. MNRAS, 509, 5062.</p>
-          </article>
-        </div>
-        <p class="section-note">
-          See the <a href="documents/shengdong-lu-publications.pdf">full publication list</a>
-          or search <a href="https://ui.adsabs.harvard.edu/search/q=author%3A%22Lu%2C%20Shengdong%22&sort=date%20desc%2C%20bibcode%20desc">NASA ADS</a>.
-        </p>
-      </section>
-
-      <section class="section two-column" id="talks" aria-labelledby="talks-title">
-        <div class="section-heading">
-          <p class="section-kicker">Presentations</p>
-          <h2 id="talks-title">Talks and Teaching</h2>
-        </div>
-        <div class="column-stack">
-          <article>
-            <h3>Recent Talks</h3>
-            <ul class="plain-list">
-              <li>28th Guoshoujing Meeting on Galaxy Formation and Evolution, Haikou, China, May 2026.</li>
-              <li>SKIRT Days 2025, Ghent, Belgium, Oct. 2025.</li>
-              <li>IAU Symposium #369: Massive Galaxies across the Universe, Naples, Italy, June 2025.</li>
-              <li>Galaxy Evolution Seminar, University of Oxford, Feb. 2024.</li>
-            </ul>
-          </article>
-          <article>
-            <h3>Teaching and Service</h3>
-            <ul class="plain-list">
-              <li>Teaching Assistant and Guest Lecturer, MISCADA Machine Learning Demonstrations, Durham University.</li>
-              <li>Tutorials on Foundations of Physics, Durham University.</li>
-              <li>Referee for MNRAS, A&amp;A, and PASP.</li>
-            </ul>
-          </article>
+      <section class="section team-section" id="team">
+        <div class="container">
+          <h2>Group, Collaborations &amp; Mentoring</h2>
+          <div class="team-grid">
+            <article class="person-card feature-person">
+              <img src="assets/shengdong-lu-photo.jpg" alt="Portrait of Shengdong Lu">
+              <div>
+                <h3>Dr. Shengdong Lu <span>陆胜东</span></h3>
+                <p>Postdoctoral Research Associate</p>
+                <p>Research interests: galaxy formation, high-redshift galaxies, simulations, radiative transfer, IFU surveys.</p>
+              </div>
+            </article>
+            <article class="person-card">
+              <h3>COLIBRE Collaboration</h3>
+              <p>
+                I work on luminosity functions and observable-space predictions from
+                the COLIBRE simulations.
+              </p>
+            </article>
+            <article class="person-card">
+              <h3>Mentoring</h3>
+              <p>
+                I have co-mentored Sen Wang and Wenyu Zhong on projects connecting
+                simulations, galaxy dynamics, and observations.
+              </p>
+            </article>
+            <article class="person-card">
+              <h3>Open Collaboration</h3>
+              <p>
+                I welcome discussions on JWST galaxy populations, mock observations,
+                galaxy dynamics, and AI applications in astronomy.
+              </p>
+            </article>
+          </div>
         </div>
       </section>
 
-      <section class="section resources" id="resources" aria-labelledby="resources-title">
-        <div class="section-heading">
-          <p class="section-kicker">Resources</p>
-          <h2 id="resources-title">Documents and Profiles</h2>
-        </div>
-        <div class="resource-row">
-          <a href="documents/shengdong-lu-cv.pdf">Curriculum Vitae</a>
-          <a href="documents/shengdong-lu-publications.pdf">Publication List</a>
-          <a href="https://orcid.org/0000-0002-6726-9499">ORCID</a>
-          <a href="https://github.com/AstroShengdong">GitHub</a>
+      <section class="section outreach-section" id="outreach">
+        <div class="container">
+          <h2>Outreach &amp; Teaching</h2>
+          <div class="outreach-grid">
+            <article>
+              <h3>Teaching</h3>
+              <p>
+                Teaching Assistant and Guest Lecturer for Machine Learning
+                Demonstrations in MISCADA at Durham University, plus tutorials on
+                Foundations of Physics.
+              </p>
+            </article>
+            <article>
+              <h3>Recent Talks</h3>
+              <p>
+                Recent presentations include the 28th Guoshoujing Meeting, SKIRT Days
+                2025, IAU Symposium #369, and the Galaxy Evolution Seminar at Oxford.
+              </p>
+            </article>
+            <article>
+              <h3>Public Engagement</h3>
+              <p>
+                Volunteer work includes The Schools' Science Festival at Durham
+                University and the Ukrainian Summer School.
+              </p>
+            </article>
+          </div>
         </div>
       </section>
 
-      <section class="section contact" id="contact" aria-labelledby="contact-title">
-        <div>
-          <p class="section-kicker">Contact</p>
-          <h2 id="contact-title">Get in Touch</h2>
+      <section class="section contact-section" id="contact">
+        <div class="container contact-grid">
+          <div>
+            <h2>Contact Me</h2>
+            <p class="contact-lede">Get in touch about research, collaboration, seminars, or data products.</p>
+          </div>
+          <address>
+            <strong>Shengdong Lu</strong><br>
+            Institute for Computational Cosmology<br>
+            Durham University, Durham, DH1 3LE, UK<br>
+            <a href="mailto:shengdong.lu@durham.ac.uk">shengdong.lu@durham.ac.uk</a><br>
+            <a href="https://orcid.org/0000-0002-6726-9499">ORCID: 0000-0002-6726-9499</a><br>
+            <a href="https://github.com/AstroShengdong">GitHub: AstroShengdong</a>
+          </address>
         </div>
-        <address>
-          <strong>Shengdong Lu</strong><br>
-          Institute for Computational Cosmology<br>
-          Durham University, Durham, DH1 3LE, UK<br>
-          <a href="mailto:shengdong.lu@durham.ac.uk">shengdong.lu@durham.ac.uk</a>
-        </address>
       </section>
     </main>
 
     <footer class="site-footer">
-      <p>© <span id="year">2026</span> Shengdong Lu. Built for astrosdlu.github.io.</p>
+      <p>© <span id="year">2026</span> Shengdong Lu</p>
+      <p>
+        Structure adapted from
+        <a href="https://sownakbose.github.io/">Sownak Bose's academic homepage</a>,
+        licensed under
+        <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.
+      </p>
     </footer>
 
     <script>
