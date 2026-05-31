@@ -27,7 +27,9 @@ GitHub Pages documentation: https://docs.github.com/en/pages/getting-started-wit
 
 - `index.html` - homepage content
 - `styles.css` - visual design
+- `scripts/generate_research_images.py` - reproducible script for the research-section images
 - `assets/shengdong-lu-photo.jpg` - profile image
+- `assets/research/*.png` - generated research-section images
 - `documents/shengdong-lu-cv.pdf` - CV
 - `documents/shengdong-lu-publications.pdf` - publication list
 

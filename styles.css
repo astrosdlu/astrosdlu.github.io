@@ -454,51 +454,21 @@ h2 {
   font-weight: 700;
 }
 
-.research-card:nth-child(even) .research-art {
+.research-card:nth-child(even) .research-figure {
   order: 2;
 }
 
-.research-art {
+.research-figure {
+  margin: 0;
+}
+
+.research-figure img {
+  width: 100%;
   min-height: 13rem;
-  background-color: #102326;
-  background-image:
-    radial-gradient(circle at 22% 26%, rgba(232, 137, 47, 0.75), transparent 0.6rem),
-    radial-gradient(circle at 66% 58%, rgba(255, 255, 255, 0.84), transparent 0.16rem),
-    radial-gradient(circle at 76% 42%, rgba(255, 255, 255, 0.56), transparent 0.12rem),
-    linear-gradient(135deg, rgba(10, 110, 105, 0.88), rgba(20, 31, 34, 0.2));
-  overflow: hidden;
-}
-
-.research-art::after {
-  display: block;
-  width: 130%;
-  height: 130%;
-  transform: translate(-10%, -10%) rotate(-16deg);
-  background:
-    repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.18) 0 1px, transparent 1px 16px),
-    repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.14) 0 1px, transparent 1px 16px);
-  content: "";
-}
-
-.art-forward {
-  background-image:
-    radial-gradient(circle at 54% 48%, rgba(232, 137, 47, 0.65), transparent 2.2rem),
-    radial-gradient(circle at 28% 26%, rgba(255, 255, 255, 0.64), transparent 0.12rem),
-    linear-gradient(145deg, #102326, #0a6e69);
-}
-
-.art-quench {
-  background-image:
-    radial-gradient(circle at 35% 55%, rgba(255, 255, 255, 0.72), transparent 0.16rem),
-    radial-gradient(circle at 67% 34%, rgba(232, 137, 47, 0.66), transparent 1.7rem),
-    linear-gradient(145deg, #1b292d, #653a25);
-}
-
-.art-dynamics {
-  background-image:
-    radial-gradient(circle at 50% 50%, transparent 0 2rem, rgba(232, 137, 47, 0.72) 2.05rem 2.15rem, transparent 2.2rem),
-    radial-gradient(circle at 52% 51%, rgba(255, 255, 255, 0.75), transparent 0.18rem),
-    linear-gradient(145deg, #172427, #0a6e69);
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  background: #102326;
+  box-shadow: 0 10px 34px rgba(20, 31, 34, 0.12);
 }
 
 .publication-list {
@@ -652,7 +622,7 @@ address {
     grid-column: auto;
   }
 
-  .research-card:nth-child(even) .research-art {
+  .research-card:nth-child(even) .research-figure {
     order: 0;
   }
 }
