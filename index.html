@@ -8,6 +8,12 @@
       content="Academic homepage of Shengdong Lu, Postdoctoral Research Associate at Durham University."
     >
     <title>Shengdong Lu | astrosdlu.github.io</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,520;8..60,650&display=swap"
+      rel="stylesheet"
+    >
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
@@ -31,14 +37,23 @@
     <main id="main">
       <section class="hero" id="top">
         <div class="hero-copy">
-          <p class="eyebrow">Institute for Computational Cosmology, Durham University</p>
-          <h1>Shengdong Lu <span class="han">(陆胜东)</span></h1>
-          <p class="role">Postdoctoral Research Associate</p>
+          <p class="eyebrow">Postdoctoral Research Associate</p>
+          <h1>
+            <span>Shengdong</span>
+            <span>Lu</span>
+            <span class="han">陆胜东</span>
+          </h1>
+          <p class="role">Institute for Computational Cosmology, Durham University</p>
           <p class="lede">
             I study galaxy formation and evolution with cosmological simulations,
             semi-analytic models, and radiative-transfer forward modelling, with a
             current focus on interpreting JWST observations of high-redshift galaxies.
           </p>
+          <ul class="hero-topics" aria-label="Research topics">
+            <li>JWST high-redshift galaxies</li>
+            <li>COLIBRE simulations</li>
+            <li>Observable-space inference</li>
+          </ul>
           <div class="hero-actions" aria-label="Profile links">
             <a class="button primary" href="documents/shengdong-lu-cv.pdf">Download CV</a>
             <a class="button" href="documents/shengdong-lu-publications.pdf">Publication List</a>
@@ -46,12 +61,28 @@
           </div>
         </div>
 
-        <figure class="portrait-panel">
-          <img src="assets/shengdong-lu-photo.jpg" alt="Portrait of Shengdong Lu">
-          <figcaption>
-            Forward modelling galaxy populations from simulations to observable space.
-          </figcaption>
-        </figure>
+        <aside class="hero-side" aria-label="Profile summary">
+          <figure class="portrait-panel">
+            <img src="assets/shengdong-lu-photo.jpg" alt="Portrait of Shengdong Lu">
+            <figcaption>
+              Forward modelling galaxy populations from simulations to observable space.
+            </figcaption>
+          </figure>
+          <dl class="profile-facts">
+            <div>
+              <dt>Current base</dt>
+              <dd>Durham, UK</dd>
+            </div>
+            <div>
+              <dt>Collaboration</dt>
+              <dd>COLIBRE</dd>
+            </div>
+            <div>
+              <dt>ORCID</dt>
+              <dd><a href="https://orcid.org/0000-0002-6726-9499">0000-0002-6726-9499</a></dd>
+            </div>
+          </dl>
+        </aside>
       </section>
 
       <section class="section intro-grid" id="about" aria-labelledby="about-title">
