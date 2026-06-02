@@ -614,7 +614,7 @@ h2 {
 
 .featured-paper-grid {
   display: grid;
-  gap: clamp(2.2rem, 5vw, 4rem);
+  gap: clamp(3rem, 7vw, 5.5rem);
 }
 
 .featured-paper {
@@ -624,23 +624,18 @@ h2 {
   align-content: start;
   align-items: center;
   gap: 0;
-  padding: clamp(1rem, 2.4vw, 1.6rem);
-  border: 1px solid var(--line);
-  background:
-    linear-gradient(90deg, rgba(232, 137, 47, 0.08), transparent 30%),
-    var(--paper);
-  box-shadow: 0 18px 48px rgba(20, 31, 34, 0.08);
+  padding: clamp(0.3rem, 1.2vw, 0.7rem) 0;
 }
 
 .featured-paper::before {
   content: "";
   position: absolute;
-  top: clamp(0.75rem, 2vw, 1.2rem);
-  bottom: clamp(0.75rem, 2vw, 1.2rem);
-  left: clamp(0.75rem, 2vw, 1.2rem);
-  width: 3px;
+  top: -0.7rem;
+  left: 0;
+  width: clamp(5rem, 12vw, 9rem);
+  height: 3px;
   background: var(--orange);
-  opacity: 0.72;
+  opacity: 0.8;
 }
 
 .featured-paper-figure {
@@ -654,9 +649,9 @@ h2 {
 .featured-paper-figure img,
 .featured-paper-figure embed {
   width: 100%;
-  border: 1px solid var(--line);
+  border: 0;
   background: #fff;
-  box-shadow: 0 10px 30px rgba(20, 31, 34, 0.08);
+  box-shadow: 0 16px 42px rgba(20, 31, 34, 0.12);
 }
 
 .featured-paper-figure img {
@@ -676,21 +671,13 @@ h2 {
   display: grid;
   grid-column: 7 / -1;
   gap: 0.75rem;
-  margin-left: clamp(-2rem, -3vw, -1rem);
-  padding: clamp(1rem, 2.5vw, 1.5rem);
-  border: 1px solid rgba(20, 31, 34, 0.1);
-  background: rgba(255, 253, 248, 0.94);
-  box-shadow: 0 14px 36px rgba(20, 31, 34, 0.09);
-}
-
-.featured-paper:nth-child(even) {
-  background:
-    linear-gradient(270deg, rgba(10, 110, 105, 0.08), transparent 30%),
-    var(--paper);
+  margin-left: clamp(-1.5rem, -2vw, -0.8rem);
+  padding: clamp(0.2rem, 1vw, 0.55rem) 0 clamp(0.2rem, 1vw, 0.55rem) clamp(1rem, 2vw, 1.5rem);
+  border-left: 2px solid rgba(232, 137, 47, 0.45);
 }
 
 .featured-paper:nth-child(even)::before {
-  right: clamp(0.75rem, 2vw, 1.2rem);
+  right: 0;
   left: auto;
   background: var(--teal);
 }
@@ -702,8 +689,12 @@ h2 {
 
 .featured-paper:nth-child(even) .featured-paper-copy {
   grid-column: 1 / span 6;
-  margin-right: clamp(-2rem, -3vw, -1rem);
+  margin-right: clamp(-1.5rem, -2vw, -0.8rem);
   margin-left: 0;
+  padding-right: clamp(1rem, 2vw, 1.5rem);
+  padding-left: 0;
+  border-right: 2px solid rgba(10, 110, 105, 0.42);
+  border-left: 0;
   order: -1;
 }
 
