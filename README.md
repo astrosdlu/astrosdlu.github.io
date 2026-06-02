@@ -27,11 +27,25 @@ GitHub Pages documentation: https://docs.github.com/en/pages/getting-started-wit
 
 - `index.html` - homepage content
 - `styles.css` - visual design
+- `data/publications.json` - ADS-generated publication data used by the homepage
+- `scripts/update_publications.py` - weekly ADS public-library metadata updater
 - `scripts/generate_research_images.py` - reproducible script for the research-section images
 - `assets/shengdong-lu-photo.jpg` - profile image
 - `assets/research/*.png` - generated research-section images
 - `documents/shengdong-lu-cv.pdf` - CV
 - `documents/shengdong-lu-publications.pdf` - publication list
+
+## Publication Updates
+
+The publications section is generated from the ADS public library:
+
+```text
+https://ui.adsabs.harvard.edu/public-libraries/Ehu1oU_ISIairGeqwhMJWw
+```
+
+Add an `ADS_TOKEN` repository secret in GitHub. The
+`.github/workflows/update-publications.yml` workflow runs every Monday and can
+also be started manually from GitHub Actions.
 
 ## Attribution
 

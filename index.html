@@ -328,95 +328,27 @@
         <div class="container">
           <h2>Recent Publications</h2>
           <p class="section-intro">
-            Recent first/corresponding-author papers and recent co-authored papers.
-            The full list is available as a PDF or through NASA ADS.
+            Publications are updated weekly from my NASA ADS public library.
+            Full article titles are shown below.
           </p>
           <div class="publication-columns">
             <section>
-              <h3>First or Corresponding Author</h3>
-              <div class="publication-list">
-                <article>
-                  <span>2026</span>
-                  <div>
-                    <h4><a href="https://ui.adsabs.harvard.edu/abs/2026arXiv260506782L/abstract">COLIBRE Luminosity Functions - II</a></h4>
-                    <p>Lu S., Frenk C. S., Lacey C. G., et al. Submitted to MNRAS.</p>
-                  </div>
-                </article>
-                <article>
-                  <span>2026</span>
-                  <div>
-                    <h4><a href="https://ui.adsabs.harvard.edu/abs/2026arXiv260502022L/abstract">COLIBRE Luminosity Functions - I</a></h4>
-                    <p>Lu S., Frenk C. S., Lacey C. G., et al. Submitted to MNRAS.</p>
-                  </div>
-                </article>
-                <article>
-                  <span>2025</span>
-                  <div>
-                    <h4><a href="https://ui.adsabs.harvard.edu/abs/2025MNRAS.536.1018L/abstract">LCDM predictions and JWST galaxy abundances</a></h4>
-                    <p>Lu S., Frenk C. S., Bose S., et al. MNRAS, 536, 1018.</p>
-                  </div>
-                </article>
-                <article>
-                  <span>2024</span>
-                  <div>
-                    <h4><a href="https://ui.adsabs.harvard.edu/abs/2024MNRAS.530.4474L/abstract">MaNGA DynPop - V</a></h4>
-                    <p>Lu S., Zhu K., Cappellari M., Li R., Mao S., Xu D. MNRAS, 530, 4474.</p>
-                  </div>
-                </article>
-                <article>
-                  <span>2024</span>
-                  <div>
-                    <h4><a href="https://ui.adsabs.harvard.edu/abs/2024MNRAS.526.1022L/abstract">MaNGA DynPop - II</a></h4>
-                    <p>Lu S., Zhu K., Cappellari M., Li R., Mao S., Xu D. MNRAS, 526, 1022.</p>
-                  </div>
-                </article>
+              <h3>First Author</h3>
+              <div class="publication-list" id="first-author-publications" aria-live="polite">
+                <p class="publication-status">Loading publication data from ADS...</p>
               </div>
             </section>
 
             <section>
               <h3>Co-author</h3>
-              <div class="publication-list">
-                <article>
-                  <span>2026</span>
-                  <div>
-                    <h4><a href="https://ui.adsabs.harvard.edu/abs/2026A&A...707A..15Z/abstract">Unifying the dynamical classification of early-type galaxies</a></h4>
-                    <p>Zhong W., Du M., Lu S., Jin Y., Zhu K. A&amp;A, 707, 15.</p>
-                  </div>
-                </article>
-                <article>
-                  <span>2025</span>
-                  <div>
-                    <h4><a href="https://ui.adsabs.harvard.edu/abs/2025MNRAS.544.1038F/abstract">High-order stellar kinematics in MaNGA</a></h4>
-                    <p>Fu Y., Cappellari M., Zhu K., Mao S., Lu S. MNRAS, 544, 1038.</p>
-                  </div>
-                </article>
-                <article>
-                  <span>2025</span>
-                  <div>
-                    <h4><a href="https://ui.adsabs.harvard.edu/abs/2025ApJS..280...55Z/abstract">MaNGA DynPop - VII</a></h4>
-                    <p>Zhu K., Cappellari M., Mao S., Lu S., et al. ApJS, 280, 55.</p>
-                  </div>
-                </article>
-                <article>
-                  <span>2025</span>
-                  <div>
-                    <h4><a href="https://ui.adsabs.harvard.edu/abs/2025ApJ...986...85W/abstract">Cold-gas angular-momentum environments and star formation</a></h4>
-                    <p>Wang S., Xu D., Lu S. ApJ, 986, 85.</p>
-                  </div>
-                </article>
-                <article>
-                  <span>2025</span>
-                  <div>
-                    <h4><a href="https://ui.adsabs.harvard.edu/abs/2025A&A...693A...9L/abstract">CGM angular momentum in IllustrisTNG and SIMBA</a></h4>
-                    <p>Liu K., Guo H., Wang S., Xu D., Lu S., et al. A&amp;A, 693, 9.</p>
-                  </div>
-                </article>
+              <div class="publication-list" id="co-author-publications" aria-live="polite">
+                <p class="publication-status">Loading publication data from ADS...</p>
               </div>
             </section>
           </div>
           <div class="download-row">
             <a class="button button-dark" href="documents/shengdong-lu-publications.pdf">Full Publication List</a>
-            <a class="button button-light" href="https://ui.adsabs.harvard.edu/search/q=author%3A%22Lu%2C%20Shengdong%22&sort=date%20desc%2C%20bibcode%20desc">NASA ADS</a>
+            <a class="button button-light" href="https://ui.adsabs.harvard.edu/public-libraries/Ehu1oU_ISIairGeqwhMJWw">NASA ADS Library</a>
           </div>
         </div>
       </section>
@@ -504,6 +436,75 @@
 
     <script>
       document.getElementById("year").textContent = new Date().getFullYear();
+
+      const publicationLists = {
+        "first-author": document.getElementById("first-author-publications"),
+        "co-author": document.getElementById("co-author-publications"),
+      };
+
+      function makePublicationArticle(publication) {
+        const article = document.createElement("article");
+        const year = document.createElement("span");
+        const details = document.createElement("div");
+        const heading = document.createElement("h4");
+        const title = document.createElement("a");
+        const meta = document.createElement("p");
+
+        year.textContent = publication.year || "In press";
+        title.href = publication.adsUrl;
+        title.textContent = publication.title;
+        meta.textContent = [publication.authors, publication.publication].filter(Boolean).join(" ");
+
+        heading.append(title);
+        details.append(heading, meta);
+
+        if (publication.doiUrl) {
+          const doi = document.createElement("a");
+          doi.href = publication.doiUrl;
+          doi.textContent = "DOI";
+          details.append(doi);
+        }
+
+        article.append(year, details);
+        return article;
+      }
+
+      function renderPublicationList(category, publications) {
+        const list = publicationLists[category];
+        list.innerHTML = "";
+        if (!publications.length) {
+          const empty = document.createElement("p");
+          empty.className = "publication-status";
+          empty.textContent = "No publications listed in this category yet.";
+          list.append(empty);
+          return;
+        }
+        publications.forEach((publication) => list.append(makePublicationArticle(publication)));
+      }
+
+      fetch("data/publications.json")
+        .then((response) => {
+          if (!response.ok) {
+            throw new Error("Publication data unavailable.");
+          }
+          return response.json();
+        })
+        .then((data) => {
+          const publications = data.publications || [];
+          renderPublicationList(
+            "first-author",
+            publications.filter((publication) => publication.category === "first-author")
+          );
+          renderPublicationList(
+            "co-author",
+            publications.filter((publication) => publication.category === "co-author")
+          );
+        })
+        .catch(() => {
+          Object.values(publicationLists).forEach((list) => {
+            list.innerHTML = '<p class="publication-status">Publication data could not be loaded. Please use the NASA ADS Library link below.</p>';
+          });
+        });
     </script>
   </body>
 </html>
