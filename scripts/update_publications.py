@@ -5,11 +5,13 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import sys
 import time
 import urllib.error
 import urllib.parse
 import urllib.request
+from html import unescape
 from pathlib import Path
 
 
@@ -95,6 +97,14 @@ def format_publication(record: dict) -> str:
     return "Publication details pending."
 
 
+def clean_title(title: str) -> str:
+    title = unescape(title)
+    title = re.sub(r"</?sub>", "", title, flags=re.IGNORECASE)
+    title = re.sub(r"\$(.*?)\$", r"\1", title)
+    title = title.replace("─", "-")
+    return " ".join(title.split())
+
+
 def is_first_author(record: dict) -> bool:
     authors = record.get("author") or []
     if not authors:
@@ -109,7 +119,7 @@ def normalize_record(record: dict) -> dict:
     doi = record.get("doi") or []
     return {
         "bibcode": record["bibcode"],
-        "title": title[0],
+        "title": clean_title(title[0]),
         "year": str(record.get("year", "")),
         "authors": format_authors(authors),
         "publication": format_publication(record),
