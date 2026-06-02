@@ -614,17 +614,45 @@ h2 {
 
 .featured-paper-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1rem;
+  gap: 1.2rem;
 }
 
 .featured-paper {
   display: grid;
+  grid-template-columns: minmax(260px, 0.95fr) minmax(0, 1.25fr);
   align-content: start;
-  gap: 0.75rem;
+  gap: clamp(1rem, 3vw, 1.7rem);
+  align-items: center;
   padding: clamp(1rem, 2vw, 1.35rem);
   border: 1px solid var(--line);
   background: var(--paper);
+}
+
+.featured-paper-figure {
+  margin: 0;
+}
+
+.featured-paper-figure img,
+.featured-paper-figure embed {
+  width: 100%;
+  min-height: 15rem;
+  aspect-ratio: 16 / 10;
+  border: 1px solid var(--line);
+  background: #fff;
+  box-shadow: 0 10px 30px rgba(20, 31, 34, 0.08);
+}
+
+.featured-paper-figure img {
+  object-fit: cover;
+}
+
+.featured-paper-figure embed {
+  display: block;
+}
+
+.featured-paper-copy {
+  display: grid;
+  gap: 0.75rem;
 }
 
 .paper-tag {
@@ -841,7 +869,6 @@ address {
   .cv-grid,
   .news-list,
   .team-grid,
-  .featured-paper-grid,
   .publication-columns,
   .outreach-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -853,6 +880,10 @@ address {
 
   .research-card:nth-child(even) .research-figure {
     order: 0;
+  }
+
+  .featured-paper {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -898,7 +929,6 @@ address {
   .news-list,
   .cv-grid,
   .team-grid,
-  .featured-paper-grid,
   .publication-columns,
   .outreach-grid {
     grid-template-columns: 1fr;
