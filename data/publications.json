@@ -1,6 +1,6 @@
 {
   "source": "https://ui.adsabs.harvard.edu/public-libraries/Ehu1oU_ISIairGeqwhMJWw",
-  "updated": "2026-06-15T11:46:57Z",
+  "updated": "2026-06-22T11:35:58Z",
   "publications": [
     {
       "bibcode": "2026arXiv260506782L",
@@ -9,7 +9,7 @@
       "authors": "Lu S., Frenk C. S., Lacey C. G., Gebek A., Schaye J., et al.",
       "publication": "arXiv e-prints.",
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260506782L/abstract",
-      "doiUrl": "",
+      "doiUrl": "https://doi.org/10.48550/arXiv.2605.06782",
       "category": "first-author"
     },
     {
