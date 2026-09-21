@@ -1,6 +1,6 @@
 {
   "source": "https://ui.adsabs.harvard.edu/public-libraries/Ehu1oU_ISIairGeqwhMJWw",
-  "updated": "2026-09-14T11:15:53Z",
+  "updated": "2026-09-21T11:28:07Z",
   "publications": [
     {
       "bibcode": "2026arXiv260506782L",
@@ -13,13 +13,13 @@
       "category": "first-author"
     },
     {
-      "bibcode": "2026arXiv260502022L",
-      "title": "Galaxy luminosity functions from far-UV to submillimetre at z=0 in the COLIBRE simulations",
+      "bibcode": "2026MNRAS.tmp.1593L",
+      "title": "Galaxy luminosity functions from far-UV to submillimetre at z = 0 in the COLIBRE simulations",
       "year": "2026",
       "authors": "Lu S., Frenk C. S., Lacey C. G., Gebek A., Schaye J., et al.",
-      "publication": "arXiv e-prints.",
-      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260502022L/abstract",
-      "doiUrl": "https://doi.org/10.48550/arXiv.2605.02022",
+      "publication": "Monthly Notices of the Royal Astronomical Society.",
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026MNRAS.tmp.1593L/abstract",
+      "doiUrl": "https://doi.org/10.1093/mnras/stag1723",
       "category": "first-author"
     },
     {
