@@ -1,7 +1,67 @@
 {
   "source": "https://ui.adsabs.harvard.edu/public-libraries/Ehu1oU_ISIairGeqwhMJWw",
-  "updated": "2026-09-21T11:28:07Z",
+  "updated": "2026-09-28T12:22:54Z",
   "publications": [
+    {
+      "bibcode": "2026arXiv260916187W",
+      "title": "Forged in Quenching: Morphological Transformation across Star-forming and Quiescent Galaxies in EAGLE",
+      "year": "2026",
+      "authors": "Wang K., Baugh C., Bose S., Cole S., Frenk C. S., et al.",
+      "publication": "arXiv e-prints.",
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260916187W/abstract",
+      "doiUrl": "https://doi.org/10.48550/arXiv.2609.16187",
+      "category": "co-author"
+    },
+    {
+      "bibcode": "2026arXiv260823558Z",
+      "title": "The descendants of z \\gtrsim 10 JWST galaxies in the COLIBRE simulations",
+      "year": "2026",
+      "authors": "Zhao X., Frenk C. S., Pontzen A., Oman K. A., Chaikin E., et al.",
+      "publication": "arXiv e-prints.",
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260823558Z/abstract",
+      "doiUrl": "https://doi.org/10.48550/arXiv.2608.23558",
+      "category": "co-author"
+    },
+    {
+      "bibcode": "2026arXiv260819007C",
+      "title": "The progenitors of z\\gtrsim10 JWST galaxies in the COLIBRE simulations",
+      "year": "2026",
+      "authors": "Chaikin E., Pontzen A., Frenk C. S., Schaye J., Lu S., et al.",
+      "publication": "arXiv e-prints.",
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260819007C/abstract",
+      "doiUrl": "https://doi.org/10.48550/arXiv.2608.19007",
+      "category": "co-author"
+    },
+    {
+      "bibcode": "2026arXiv260805835W",
+      "title": "Ruffled Feathers: Merger-driven galaxy size growth and structural transformation in EAGLE",
+      "year": "2026",
+      "authors": "Wang K., Baugh C., Bose S., Cole S., Frenk C. S., et al.",
+      "publication": "arXiv e-prints.",
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260805835W/abstract",
+      "doiUrl": "https://doi.org/10.48550/arXiv.2608.05835",
+      "category": "co-author"
+    },
+    {
+      "bibcode": "2026arXiv260716404D",
+      "title": "Cosmological simulations of the high-redshift galaxy population adopting a variable stellar initial mass function",
+      "year": "2026",
+      "authors": "Durrant A., Crain R. A., Lacey C. G., Schaye J., Smit R., et al.",
+      "publication": "arXiv e-prints.",
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260716404D/abstract",
+      "doiUrl": "https://doi.org/10.48550/arXiv.2607.16404",
+      "category": "co-author"
+    },
+    {
+      "bibcode": "2026arXiv260714901G",
+      "title": "The COLIBRE-SKIRT pipeline: Calibration-free dust radiative transfer postprocessing for cosmological simulations",
+      "year": "2026",
+      "authors": "Gebek A., Baes M., Andreadis N., Schaye J., Kapoor A. U., et al.",
+      "publication": "arXiv e-prints.",
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260714901G/abstract",
+      "doiUrl": "https://doi.org/10.48550/arXiv.2607.14901",
+      "category": "co-author"
+    },
     {
       "bibcode": "2026arXiv260506782L",
       "title": "The galaxy ultraviolet luminosity function from z=7 to 15 in the COLIBRE simulations",
@@ -140,66 +200,6 @@
       "publication": "Monthly Notices of the Royal Astronomical Society, 527, 1580.",
       "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024MNRAS.527.1580W/abstract",
       "doiUrl": "https://doi.org/10.1093/mnras/stad3214",
-      "category": "co-author"
-    },
-    {
-      "bibcode": "2024MNRAS.527..706Z",
-      "title": "MaNGA DynPop - III. Stellar dynamics versus stellar population relations in 6000 early-type and spiral galaxies: Fundamental Plane, mass-to-light ratios, total density slopes, and dark matter fractions",
-      "year": "2024",
-      "authors": "Zhu K., Lu S., Cappellari M., Li R., Mao S., et al.",
-      "publication": "Monthly Notices of the Royal Astronomical Society, 527, 706.",
-      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024MNRAS.527..706Z/abstract",
-      "doiUrl": "https://doi.org/10.1093/mnras/stad3213",
-      "category": "co-author"
-    },
-    {
-      "bibcode": "2023RAA....23h5001Z",
-      "title": "Velocity Dispersion σ aper Aperture Corrections as a Function of Galaxy Properties from Integral-field Stellar Kinematics of 10,000 MaNGA Galaxies",
-      "year": "2023",
-      "authors": "Zhu K., Li R., Cao X., Lu S., Cappellari M., et al.",
-      "publication": "Research in Astronomy and Astrophysics, 23, 085001.",
-      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023RAA....23h5001Z/abstract",
-      "doiUrl": "https://doi.org/10.1088/1674-4527/acd58a",
-      "category": "co-author"
-    },
-    {
-      "bibcode": "2023MNRAS.526.1022L",
-      "title": "MaNGA DynPop - II. Global stellar population, gradients, and star-formation histories from integral-field spectroscopy of 10K galaxies: link with galaxy rotation, shape, and total-density gradients",
-      "year": "2023",
-      "authors": "Lu S., Zhu K., Cappellari M., Li R., Mao S., et al.",
-      "publication": "Monthly Notices of the Royal Astronomical Society, 526, 1022.",
-      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023MNRAS.526.1022L/abstract",
-      "doiUrl": "https://doi.org/10.1093/mnras/stad2732",
-      "category": "first-author"
-    },
-    {
-      "bibcode": "2023MNRAS.524.5827F",
-      "title": "A complete catalogue of broad-line AGNs and double-peaked emission lines from MaNGA integral-field spectroscopy of 10K galaxies: stellar population of AGNs, supermassive black holes, and dual AGNs",
-      "year": "2023",
-      "authors": "Fu Y., Cappellari M., Mao S., Lu S., Zhu K., et al.",
-      "publication": "Monthly Notices of the Royal Astronomical Society, 524, 5827.",
-      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023MNRAS.524.5827F/abstract",
-      "doiUrl": "https://doi.org/10.1093/mnras/stad2214",
-      "category": "co-author"
-    },
-    {
-      "bibcode": "2023MNRAS.522.6326Z",
-      "title": "MaNGA DynPop - I. Quality-assessed stellar dynamical modelling from integral-field spectroscopy of 10K nearby galaxies: a catalogue of masses, mass-to-light ratios, density profiles, and dark matter",
-      "year": "2023",
-      "authors": "Zhu K., Lu S., Cappellari M., Li R., Mao S., et al.",
-      "publication": "Monthly Notices of the Royal Astronomical Society, 522, 6326.",
-      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023MNRAS.522.6326Z/abstract",
-      "doiUrl": "https://doi.org/10.1093/mnras/stad1299",
-      "category": "co-author"
-    },
-    {
-      "bibcode": "2022ApJS..259...35A",
-      "title": "The Seventeenth Data Release of the Sloan Digital Sky Surveys: Complete Release of MaNGA, MaStar, and APOGEE-2 Data",
-      "year": "2022",
-      "authors": "Abdurro'uf, Accetta K., Aerts C., Silva Aguirre V., Ahumada R., et al.",
-      "publication": "The Astrophysical Journal Supplement Series, 259, 35.",
-      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2022ApJS..259...35A/abstract",
-      "doiUrl": "https://doi.org/10.3847/1538-4365/ac4414",
       "category": "co-author"
     }
   ]
