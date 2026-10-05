@@ -1,6 +1,6 @@
 {
   "source": "https://ui.adsabs.harvard.edu/public-libraries/Ehu1oU_ISIairGeqwhMJWw",
-  "updated": "2026-09-28T12:22:54Z",
+  "updated": "2026-10-05T13:03:00Z",
   "publications": [
     {
       "bibcode": "2026arXiv260916187W",
@@ -64,7 +64,7 @@
     },
     {
       "bibcode": "2026arXiv260506782L",
-      "title": "The galaxy ultraviolet luminosity function from z=7 to 15 in the COLIBRE simulations",
+      "title": "The galaxy ultraviolet luminosity function from z=7 to 20 in the COLIBRE simulations",
       "year": "2026",
       "authors": "Lu S., Frenk C. S., Lacey C. G., Gebek A., Schaye J., et al.",
       "publication": "arXiv e-prints.",
@@ -193,13 +193,13 @@
       "category": "co-author"
     },
     {
-      "bibcode": "2024MNRAS.527.1580W",
-      "title": "MaNGA DynPop - IV. Stacked total density profile of galaxy groups and clusters from combining dynamical models of integral-field stellar kinematics and galaxy-galaxy lensing",
+      "bibcode": "2024MNRAS.527..706Z",
+      "title": "MaNGA DynPop - III. Stellar dynamics versus stellar population relations in 6000 early-type and spiral galaxies: Fundamental Plane, mass-to-light ratios, total density slopes, and dark matter fractions",
       "year": "2024",
-      "authors": "Wang C., Li R., Zhu K., Shan H., Xu W., et al.",
-      "publication": "Monthly Notices of the Royal Astronomical Society, 527, 1580.",
-      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024MNRAS.527.1580W/abstract",
-      "doiUrl": "https://doi.org/10.1093/mnras/stad3214",
+      "authors": "Zhu K., Lu S., Cappellari M., Li R., Mao S., et al.",
+      "publication": "Monthly Notices of the Royal Astronomical Society, 527, 706.",
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024MNRAS.527..706Z/abstract",
+      "doiUrl": "https://doi.org/10.1093/mnras/stad3213",
       "category": "co-author"
     }
   ]
