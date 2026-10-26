@@ -1,6 +1,6 @@
 {
   "source": "https://ui.adsabs.harvard.edu/public-libraries/Ehu1oU_ISIairGeqwhMJWw",
-  "updated": "2026-10-19T11:35:32Z",
+  "updated": "2026-10-26T11:53:17Z",
   "publications": [
     {
       "bibcode": "2026arXiv260916187W",
@@ -183,13 +183,13 @@
       "category": "co-author"
     },
     {
-      "bibcode": "2024MNRAS.527.7028W",
-      "title": "Kinematical coherence between satellite galaxies and host stellar discs for MaNGA and SAMI galaxies",
+      "bibcode": "2024MNRAS.527.1580W",
+      "title": "MaNGA DynPop - IV. Stacked total density profile of galaxy groups and clusters from combining dynamical models of integral-field stellar kinematics and galaxy-galaxy lensing",
       "year": "2024",
-      "authors": "Wang S., Xu D., Lu S., Li C.",
-      "publication": "Monthly Notices of the Royal Astronomical Society, 527, 7028.",
-      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024MNRAS.527.7028W/abstract",
-      "doiUrl": "https://doi.org/10.1093/mnras/stad3634",
+      "authors": "Wang C., Li R., Zhu K., Shan H., Xu W., et al.",
+      "publication": "Monthly Notices of the Royal Astronomical Society, 527, 1580.",
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024MNRAS.527.1580W/abstract",
+      "doiUrl": "https://doi.org/10.1093/mnras/stad3214",
       "category": "co-author"
     },
     {
