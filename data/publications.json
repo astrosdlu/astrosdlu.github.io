@@ -1,6 +1,6 @@
 {
   "source": "https://ui.adsabs.harvard.edu/public-libraries/Ehu1oU_ISIairGeqwhMJWw",
-  "updated": "2026-10-26T11:53:17Z",
+  "updated": "2026-11-02T14:13:59Z",
   "publications": [
     {
       "bibcode": "2026arXiv260916187W",
@@ -63,13 +63,13 @@
       "category": "co-author"
     },
     {
-      "bibcode": "2026arXiv260506782L",
-      "title": "The galaxy ultraviolet luminosity function from z=7 to 20 in the COLIBRE simulations",
+      "bibcode": "2026MNRAS.552g1846L",
+      "title": "The galaxy ultraviolet luminosity function from z = 7 to 20 in the COLIBRE simulations",
       "year": "2026",
       "authors": "Lu S., Frenk C. S., Lacey C. G., Gebek A., Schaye J., et al.",
-      "publication": "arXiv e-prints.",
-      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026arXiv260506782L/abstract",
-      "doiUrl": "https://doi.org/10.48550/arXiv.2605.06782",
+      "publication": "Monthly Notices of the Royal Astronomical Society, 552, stag1846.",
+      "adsUrl": "https://ui.adsabs.harvard.edu/abs/2026MNRAS.552g1846L/abstract",
+      "doiUrl": "https://doi.org/10.1093/mnras/stag1846",
       "category": "first-author"
     },
     {
